@@ -1,0 +1,22 @@
+name: etlp_conda
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - conda
+  - numpy
+  - scipy
+  - xarray
+  - matplotlib
+  - notebook=5.7.5
+  - jupyterlab=0.35.0
+  - pandas
+  - pytables
+  - git
+  - pip
+  - pip:
+    - lasio
+    - segyio
+    - cwrap
+    - jsonpickle
